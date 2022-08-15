@@ -8,6 +8,9 @@
         <entry key="androidview2/src/main/res/layout/activity_main.xml" value="0.5552083333333333" />
         <entry key="androidview2/src/main/res/layout/activity_second.xml" value="0.5" />
         <entry key="androidview2/src/main/res/layout/fragment_test.xml" value="0.5" />
+        <entry key="androidview3/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="androidview3/src/main/res/layout/activity_second.xml" value="0.5" />
+        <entry key="androidview3/src/main/res/layout/fragment_test.xml" value="0.5" />
       </map>
     </option>
   </component>

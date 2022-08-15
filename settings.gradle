@@ -16,3 +16,4 @@ rootProject.name = "jetpack-vol1"
 include ':app'
 include ':androidview1'
 include ':androidview2'
+include ':androidview3'

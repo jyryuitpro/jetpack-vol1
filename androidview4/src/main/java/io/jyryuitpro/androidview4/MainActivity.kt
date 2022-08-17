@@ -9,7 +9,7 @@ import io.jyryuitpro.androidview4.databinding.ActivityMainBinding
 
 // DataBinding
 // 이름처럼, 뭔가 데이터를 어쩌고 저쩌고 해줄 수 없을까?(연결)
-// 데이터 결합
+// 핵심: 데이터 결합
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

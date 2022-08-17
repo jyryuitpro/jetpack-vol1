@@ -26,6 +26,12 @@ class MainActivity : AppCompatActivity() {
         array.add("a")
         array.add("b")
         array.add("c")
+        array.add("a")
+        array.add("b")
+        array.add("c")
+        array.add("a")
+        array.add("b")
+        array.add("c")
 
         val customAdapter = CustomAdapter(array)
 

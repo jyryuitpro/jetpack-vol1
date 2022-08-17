@@ -1,20 +1,20 @@
-package io.jyryuitpro.androidview5.viewBinding
+package io.jyryuitpro.androidview6
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
-import io.jyryuitpro.androidview5.R
-import io.jyryuitpro.androidview5.databinding.ActivityViewBindingBinding
+import io.jyryuitpro.androidview6.dataBinding.CustomDataAdapter
+import io.jyryuitpro.androidview6.databinding.ActivityMainBinding
 
-class ViewBindingActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityViewBindingBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityViewBindingBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
+        // setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         val array = ArrayList<String>()
         array.add("a")
@@ -36,10 +36,10 @@ class ViewBindingActivity : AppCompatActivity() {
         array.add("b")
         array.add("c")
 
-        val customViewAdapter = CustomViewAdapter(array)
+        val customDataAdapter = CustomDataAdapter(array)
 
         val rv = binding.rv
-        rv.adapter = customViewAdapter
+        rv.adapter = customDataAdapter
         rv.layoutManager = LinearLayoutManager(this)
     }
 }

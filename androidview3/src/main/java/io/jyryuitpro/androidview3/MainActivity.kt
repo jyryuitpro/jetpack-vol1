@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         // setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.dataBindingEX.text = "바뀐 텍스트"
-        binding.dataBindingEX.setOnClickListener {
+        binding.dataBindingEx.text = "바뀐 텍스트"
+        binding.dataBindingEx.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }

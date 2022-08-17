@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- 연결 시켜줄 데이터 세팅 -->
     <data>
-
         <variable
             name="user"
             type="io.jyryuitpro.androidview4.Person" />

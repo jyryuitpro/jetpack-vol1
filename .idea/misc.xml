@@ -19,6 +19,8 @@
         <entry key="androidview6/src/main/res/layout/text_row_item.xml" value="0.38753799392097266" />
         <entry key="androidviewmodel1/src/main/res/layout/activity_main.xml" value="0.5072916666666667" />
         <entry key="androidviewmodel2/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="androidviewmodel3/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="androidviewmodel3/src/main/res/layout/fragment_test.xml" value="0.5" />
       </map>
     </option>
   </component>

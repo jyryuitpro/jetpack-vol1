@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="androidlivedata1/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="androidview1/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="androidview1/src/main/res/layout/activity_second.xml" value="0.5" />
         <entry key="androidview2/src/main/res/layout/activity_main.xml" value="0.5552083333333333" />

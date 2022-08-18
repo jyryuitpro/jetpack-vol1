@@ -21,8 +21,16 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
         viewModel.liveCount.observe(this, Observer {
-            binding.resultArea1.text = (it + it).toString()
-            binding.resultArea2.text = (it * it).toString()
+//            binding.resultArea1.text = (it + it).toString()
+//            binding.resultArea2.text = (it * it).toString()
+        })
+
+        viewModel.mapLiveData.observe(this, Observer {
+            binding.resultArea1.text = it.toString()
+        })
+
+        viewModel.switchMapLiveData.observe(this, Observer {
+            binding.resultArea2.text = it.toString()
         })
 
         binding.btnArea.setOnClickListener {

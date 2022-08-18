@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/androidlivedata1" />
+            <option value="$PROJECT_DIR$/androidlivedata2" />
             <option value="$PROJECT_DIR$/androidview1" />
             <option value="$PROJECT_DIR$/androidview2" />
             <option value="$PROJECT_DIR$/androidview3" />
